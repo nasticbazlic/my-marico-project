@@ -1,0 +1,323 @@
+.common {
+    background: #306EF7;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.header-marico-button {
+    width: 119px;
+    height: 55px;
+}
+.common_first, .common_second {
+    width: 313px;
+    height: 77px;
+    border-radius: 10px;
+}
+.common_first {
+    margin-right: 13px;
+}
+.common_second {
+    border: 1px solid #707070;
+    background: #000000;
+    color: #707070;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 13px;
+}
+.step1 {
+    margin-top: 35px;
+    margin-left: 0;
+}
+.step1_info, .step2_info  {
+    width: 207px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.step1_info {
+    border: 1px solid #707070;
+    background: transparent;
+    color: #707070;
+    margin-left: 10px;
+}
+.step2_info {
+    background: #306EF7;
+    border: none;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+.step1none  {
+    display: none;
+}
+
+.common_get {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 283px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.common_get-started {
+    margin-top: 45px;
+    width: 472px;
+    height: 102px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+}
+/* //////////price/// */
+
+.price {
+    border: 3.5px solid #4681E7;
+    color: #fff;
+    background: transparent;
+}
+.pricing-item:hover .price {
+    border: none;
+    background: #fff;
+    color: #4681E7;
+
+}
+.button_login {
+    margin-top: 65px;
+    width: 488px;
+    height: 85px;
+    background: #306EF7;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.social_button {
+    margin-top: 70px;
+    width: 300px;
+    height: 75px;
+    background: transparent;
+    border: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+.social_button:first-child {
+    margin-right: 20px;
+}
+.social_button:last-child {
+    margin-left: 20px;
+}
+
+.social_button:hover {
+    border: none;
+    background: #fff;
+    color: #306EF7;
+}
+
+
+@media screen and (max-width: 1054px) {
+    .common {
+        font-size: 20px;
+    }
+    .header-marico-button {
+        width: 100px;
+        height: 55px;
+        border-radius: 10px;
+    }
+    .common_get-started {
+        width: 400px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .common {
+        font-size: 17px;
+    }
+    .header-marico-button {
+        width: 80px;
+        height: 45px;
+        border-radius: 10px;
+    }
+    .common_get-started {
+        width: 300px;
+        height: 80px;
+    }
+    .price {
+        width: 235px;
+        height: 55px;
+        font-size: 15px;
+    }
+    .step2_info, .step1_info  {
+        width: 170px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .social_button {
+        margin-top: 30px;
+        width: 250px;
+        height: 65px;
+        font-size: 17px;
+    }
+    .social_button img {
+        width: 30px;
+        height: 30px;
+    }
+    .social_button:first-child {
+        margin-right: 12px;
+    }
+    .social_button:last-child {
+        margin-left: 12px;
+    }
+    .button_login {
+        width: 308px;
+        height: 75px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .common {
+        font-size: 15px;
+    }
+    .header-marico-button {
+        width: 70px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .common_get-started {
+        width: 200px;
+        height: 60px;
+    }
+    .common_first, .common_second, .common_get {
+        width: 235px;
+        height: 65px;
+        font-size: 15px;
+    }
+    .step1_info, .step2_info  {
+        width: 145px;
+        height: 45px;
+        font-size: 12px;
+    }
+    .step1_info {
+        margin-left: 5px;
+    }
+    .step2_info {
+        margin-right: 5px;
+    }
+    .common_get {
+        margin-top: 30px;
+    }
+    .social_button:first-child {
+        margin-right: 10px;
+    }
+    .social_button:last-child {
+        margin-left: 0px;
+    }
+    .button_login {
+        width: 275px;
+        height: 60px;
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .common_first, .common_second, .common_get {
+        width: 150px;
+        height: 45px;
+        font-size: 10px;
+    }
+    .step1 {
+        margin-top: 20px;
+    }
+    .step1_info, .step2_info  {
+        width: 100px;
+        height: 35px;
+        font-size: 9px;
+    }
+    .step1_info {
+        margin-left: 5px;
+    }
+    .step2_info {
+        margin-right: 5px;
+    }
+    .common_get {
+        margin-top: 30px;
+    }
+    .button_login {
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .common {
+        font-size: 9px;
+    }
+    .header-marico-button {
+        width: 70px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    .common_get-started {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .price {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        height: 35px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .common {
+        font-size: 9px;
+    }
+    .header-marico-button {
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        font-size: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .common_get-started {
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .common_first, .common_second, .common_get {
+        width: 100px;
+        height: 35px;
+        font-size: 9px;
+        line-height: 9px;
+    }
+    .step1_info, .step2_info  {
+        width: 70px;
+        height: 25px;
+        font-size: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social_button:first-child {
+        margin-right: 0px;
+    }
+    
+}

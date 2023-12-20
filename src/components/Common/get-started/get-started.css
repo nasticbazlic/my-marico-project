@@ -1,0 +1,149 @@
+.get-started {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 80px;
+}
+.get-started-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130px;
+}
+.get-started-subtitle {
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 33px;
+}
+.control-start {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+.control-start-circles {
+    margin-right: 5px;
+    width: 28.6px;
+    height: 28.6px;
+    border-radius: 50px;
+    background: #0FC65C;  
+}
+.control-start-text {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #707070;
+}
+.control-start-text span {
+    font-weight: 700;
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 1054px) {
+    .get-started-logo img {
+        width: 100%;
+    }
+    .get-started-title {
+        font-size: 55px;
+        line-height: 110px;
+    }
+    .get-started-subtitle {
+        font-size: 29px;
+        line-height: 15px;
+    }
+    .control-start-circles {
+        width: 23px;
+        height: 23px;
+    }
+    .control-start-text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .get-started {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+    .get-started-logo img {
+        width: 100%;
+    }
+    .get-started-title {
+        font-size: 50px;
+        line-height: 110px;
+    }
+    .get-started-subtitle {
+        font-size: 27px;
+        line-height: 15px;
+    }
+    .control-start-circles {
+        width: 23px;
+        height: 23px;
+    }
+    .control-start-text {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .get-started-title {
+        font-size: 35px;
+        line-height: 70px;
+    }
+    .get-started-subtitle {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .control-start-circles {
+        width: 12px;
+        height: 12px;
+    }
+    .control-start-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .get-started-title {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .get-started-logo img {
+        height: 100px;
+    }
+    .get-started {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+    .get-started-title {
+        font-size:25px;
+        line-height: 40px;
+    }
+    .get-started-subtitle {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .control-start-circles {
+        width: 10px;
+        height: 10px;
+    }
+    .control-start-text {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .get-started-logo img {
+        height: 70px;
+    }
+   
+}

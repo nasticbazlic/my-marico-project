@@ -1,0 +1,47 @@
+form {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.email input {
+    margin-top: 60px;
+    position: relative;
+    width: 487px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+.email label {
+    color: #707070;
+    top: 62px;
+}
+.email svg {
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 62px;
+}
+@media screen and (max-width: 580px) {
+    form {
+        margin-top: 0;
+    }
+    .email input {
+        margin-top: 30px;
+        width: 300px;
+    }
+    .email svg {
+        top: 33px;
+    }
+    .email label {
+        top: 33px;
+    }
+}
+@media screen and (max-width: 475px) {
+    
+    .email input {
+        width: 250px;
+    }
+}

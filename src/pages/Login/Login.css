@@ -1,0 +1,46 @@
+.loginSign {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.loginSign_title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+}
+.loginSign_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+@media screen and (max-width: 991px) {
+    .loginSign {
+        padding: 50px 0;;
+    }
+    .loginSign_title {
+        font-size: 55px;
+        line-height: 100px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .loginSign {
+        padding: 30px 0;;
+    }
+    .loginSign_title {
+        font-size: 45px;
+        line-height: 90px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .loginSign_title {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .loginSign_subtitle {
+        font-size: 15px;
+        text-align: center;
+    }
+}

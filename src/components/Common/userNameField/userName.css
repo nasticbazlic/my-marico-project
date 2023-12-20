@@ -1,0 +1,44 @@
+.userName input {
+    margin-top: 60px;
+    position: relative;
+    width: 487px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+.userName label {
+    color: #707070;
+    top: 62px;
+}
+.userName svg {
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 62px;
+}
+input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+  }
+
+@media screen and (max-width: 580px) {
+    form {
+        margin-top: 0;
+    }
+    .userName input {
+        margin-top: 30px;
+        width: 300px;
+    }
+    .userName svg {
+        top: 33px;
+    }
+    .userName label {
+        top: 33px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .userName input {
+        width: 250px;
+    }
+}

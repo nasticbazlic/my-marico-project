@@ -1,0 +1,314 @@
+.home-page-first {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-title {
+    font-weight: 700;
+    font-size: 92px;
+    color: #fff;
+}
+.home-page-subtitle {
+    font-weight: 700;
+    font-size: 92px;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #FE6783 2.9%, #FFBF84 97.1%);
+}
+.home-page-first-info {
+    margin-top: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-page-first-info-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+}
+.home-page-first-info-btn {
+    padding-top: 50px;
+}
+.home-page-first-info-start {
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+.home-page-first-info-start-circles {
+    margin-right: 5px;
+    width: 28.6px;
+    height: 28.6px;
+    border-radius: 50px;
+    background: #0FC65C;  
+}
+.home-page-first-info-start-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #707070;
+}
+.home-page-first-info-start-text span {
+    font-weight: 700;
+    color: #fff;
+}
+
+/* ////////////////second ///////// */
+.home-page-second {
+    margin-top: 100px;
+}
+.home-page-second-title {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 112px;
+    color: #fff;
+    text-align: center;
+}
+.home-page-second-smile {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.home-page-second-smile-item {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-page-second-smile-title{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #fff;
+}
+.home-page-second-smile-info {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #707070;
+}
+
+/* //////////step1///// */
+
+
+
+/* //////////step2///////// */
+
+.home-page-step1-content-images {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.home-page-step1-content-images img {
+    width: 100%;
+}
+
+/* ////////home-page-experts////// */
+.home-page-experts {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-page-experts-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 112px;
+    color: #fff;
+}
+.home-page-experts img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* ///////////// */
+
+@media screen and (max-width: 1200px) {
+    .home-page-title {
+        font-size: 72px;
+    }
+    .home-page-subtitle {
+        font-size: 72px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .home-page-title {
+        font-size: 52px;
+    }
+    .home-page-subtitle {
+        font-size: 52px;
+    }
+    .home-page-first-info {
+        margin-top: 70px;
+    }
+    .home-page-first-info-text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .home-page-first-info-btn {
+        padding-top: 30px;
+    }
+    .home-page-first-info-start-circles {
+        width: 20px;
+        height: 20px; 
+    }
+    .home-page-first-info-start-text {
+        font-size: 15px;
+        line-height: 38px;
+    }
+    /* ////////////////second ///////// */
+    .home-page-first {
+        margin-top: 50px;
+    }
+    .home-page-second {
+        margin-top: 50px;
+    }
+    .home-page-second-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .home-page-second-smile {
+        margin-top: 10px;
+    }
+    .home-page-second-smile-title{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .home-page-second-smile-info {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .home-page-experts {
+        margin-top: 50px;
+    }
+    .home-page-experts-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .home-page-experts img {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-page-first {
+        margin-top: 30px;
+    }
+    .home-page-title {
+        font-size: 45px;
+    }
+    .home-page-subtitle {
+        font-size: 43px;
+    }
+    .home-page-first-info {
+        margin-top: 40px;
+    }
+    .home-page-first-info-text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .home-page-first-info-btn {
+        padding-top: 20px;
+    }
+    .home-page-first-info-start-circles {
+        width: 17px;
+        height: 17px; 
+    }
+    .home-page-first-info-start-text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    /* ///////second////// */
+    .home-page-second {
+        margin-top: 30px;
+    }
+    .home-page-second-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .home-page-second-smile-title{
+        font-size: 13px;
+        line-height: 0px;
+    }
+    .home-page-second-smile-info {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .home-page-experts {
+        margin-top: 30px;
+    }
+    .home-page-experts-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 637px) {
+    .home-page-title {
+        font-size: 35px;
+    }
+    .home-page-subtitle {
+        font-size: 33px;
+    }
+    .home-page-first-info {
+        margin-top: 20px;
+    }
+    .home-page-first-info-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .home-page-first-info-start-circles {
+        width: 12px;
+        height: 12px; 
+    }
+    .home-page-first-info-start-text {
+        font-size: 10px;
+        line-height: 10px;
+    }
+     /* ///////second////// */
+     .home-page-second {
+        margin-top: 30px;
+    }
+    .home-page-second-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .home-page-second-smile-title img {
+        width: 20px;
+    }
+    .home-page-second-smile-info {
+        font-size: 9px;
+        line-height: 9px;
+    }
+    .home-page-experts-title {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .home-page-title {
+        font-size: 25px;
+    }
+    .home-page-subtitle {
+        font-size: 23px;
+    }
+    .home-page-first-info {
+        margin-top: 12px;
+    }
+    .home-page-second-title {
+        font-size: 20px;
+    }
+    .home-page-second-smile-item {
+        margin-top: 15px;
+    }
+}
