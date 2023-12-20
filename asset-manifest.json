@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-marico-project/static/css/main.611b9f1a.css",
+    "main.js": "/my-marico-project/static/js/main.b7ab4720.js",
+    "static/media/Image-2.png": "/my-marico-project/static/media/Image-2.4f6b330a6714e967e154.png",
+    "static/media/Image-2.svg": "/my-marico-project/static/media/Image-2.534f00ef06f5dcebe33559bc4e3b49b2.svg",
+    "static/media/Image.png": "/my-marico-project/static/media/Image.e8007ad845e4b7a357f4.png",
+    "static/media/Image-5.png": "/my-marico-project/static/media/Image-5.3f648562cefb0d9f6f28.png",
+    "static/media/Image-4.png": "/my-marico-project/static/media/Image-4.2a5ffbbb1c291de63a54.png",
+    "static/media/Image-3.svg": "/my-marico-project/static/media/Image-3.2ff8657d5b1b09e297d11b044f9f786e.svg",
+    "static/media/Image.svg": "/my-marico-project/static/media/Image.dec9807c6f7d9e17d0c03b7a3cec81d4.svg",
+    "static/media/Collect.png": "/my-marico-project/static/media/Collect.2b46617fed07bc08ed4d.png",
+    "static/media/Party.svg": "/my-marico-project/static/media/Party.0915f4dc1bec1be560466308e30a6608.svg",
+    "static/media/Company_logo.svg": "/my-marico-project/static/media/Company_logo.3e6f027a7bd7ef992c9f4440def44790.svg",
+    "static/media/Happy.svg": "/my-marico-project/static/media/Happy.c6b742ccf63609f42c3c682a1f12e071.svg",
+    "static/media/Smile.svg": "/my-marico-project/static/media/Smile.5dce7699c7cdd672c37b4b17e8ac25c5.svg",
+    "static/media/Shape-14.svg": "/my-marico-project/static/media/Shape-14.65ad86a6d17d01605186acb55d304869.svg",
+    "static/media/G_logo.svg": "/my-marico-project/static/media/G_logo.6db4a52a57d8b0ef6dd37aa296526f6d.svg",
+    "index.html": "/my-marico-project/index.html",
+    "static/media/Shape-11.svg": "/my-marico-project/static/media/Shape-11.febb58a4917fdfb800e654e267e880b1.svg",
+    "static/media/Logo.svg": "/my-marico-project/static/media/Logo.fb14bd1d0efe9067c5bb2f359cd08858.svg",
+    "main.611b9f1a.css.map": "/my-marico-project/static/css/main.611b9f1a.css.map",
+    "main.b7ab4720.js.map": "/my-marico-project/static/js/main.b7ab4720.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.611b9f1a.css",
+    "static/js/main.b7ab4720.js"
+  ]
+}
