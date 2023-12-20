@@ -27,7 +27,7 @@ const App = () => {
     return (
         <div className="app">
             <header className="container header-marico">
-                <Link to='/'><img src={Logo}></img></Link>
+                <Link to='/my-marico-project'><img src={Logo}></img></Link>
                 <ItemList items={headers}
                           variation='headers-list-item' />
                 <div className="header-marico-btn">
@@ -47,7 +47,7 @@ const App = () => {
             </div>
 
             <footer className="container header-marico">
-                <Link to='/'><img src={Logo}></img></Link>
+                <Link to='/my-marico-project'><img src={Logo}></img></Link>
                 <ItemList items={footer}
                         variation='headers-list-item' />
             </footer>

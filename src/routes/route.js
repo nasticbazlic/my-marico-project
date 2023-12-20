@@ -11,7 +11,7 @@ import SignUp from "../pages/Sign-up";
 const RouterCom = () => {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/my-marico-project/" element={<HomePage />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/about" element={<About />} />
             <Route path="/pracing" element={<Pricing />} />
