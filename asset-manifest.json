@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-marico-project/static/css/main.66b42280.css",
-    "main.js": "/my-marico-project/static/js/main.db6bdf7a.js",
+    "main.css": "/my-marico-project/static/css/main.1ae8ba12.css",
+    "main.js": "/my-marico-project/static/js/main.e4e583d0.js",
     "static/media/Image-2.png": "/my-marico-project/static/media/Image-2.4f6b330a6714e967e154.png",
     "static/media/Image-2.svg": "/my-marico-project/static/media/Image-2.534f00ef06f5dcebe33559bc4e3b49b2.svg",
     "static/media/Image.png": "/my-marico-project/static/media/Image.e8007ad845e4b7a357f4.png",
@@ -19,11 +19,11 @@
     "index.html": "/my-marico-project/index.html",
     "static/media/Shape-11.svg": "/my-marico-project/static/media/Shape-11.febb58a4917fdfb800e654e267e880b1.svg",
     "static/media/Logo.svg": "/my-marico-project/static/media/Logo.fb14bd1d0efe9067c5bb2f359cd08858.svg",
-    "main.66b42280.css.map": "/my-marico-project/static/css/main.66b42280.css.map",
-    "main.db6bdf7a.js.map": "/my-marico-project/static/js/main.db6bdf7a.js.map"
+    "main.1ae8ba12.css.map": "/my-marico-project/static/css/main.1ae8ba12.css.map",
+    "main.e4e583d0.js.map": "/my-marico-project/static/js/main.e4e583d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.66b42280.css",
-    "static/js/main.db6bdf7a.js"
+    "static/css/main.1ae8ba12.css",
+    "static/js/main.e4e583d0.js"
   ]
 }
