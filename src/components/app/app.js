@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button/button";
 import ItemList from "../Common/item-list/item-list";
-import { Link, Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Logo from '../../assets/icons/Company_logo.svg';
 import RouterCom from "../../routes/route";
@@ -12,7 +12,6 @@ import './app.css';
 
 const App = () => {
     const headers = [
-        {item: 'Use Cases', to: '/use-case', id: 1},
         {item: 'About', to:'/about', id:2},
         {item: 'Pricing', to: '/pracing', id:3},
         {item: 'Blog',to: '/blog', id:4}
@@ -27,7 +26,7 @@ const App = () => {
     return (
         <div className="app">
             <header className="container header-marico">
-                <Link to='/my-marico-project'><img src={Logo}></img></Link>
+                <Link to='/my-marico-project'><img src={Logo} alt= 'Logo' ></img></Link>
                 <ItemList items={headers}
                           variation='headers-list-item' />
                 <div className="header-marico-btn">
@@ -47,7 +46,7 @@ const App = () => {
             </div>
 
             <footer className="container header-marico">
-                <Link to='/my-marico-project'><img src={Logo}></img></Link>
+                <Link to='/my-marico-project'><img src={Logo} alt= 'Logo' ></img></Link>
                 <ItemList items={footer}
                         variation='headers-list-item' />
             </footer>

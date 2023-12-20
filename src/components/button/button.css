@@ -192,7 +192,6 @@
     .header-marico-button {
         width: 70px;
         height: 40px;
-        border-radius: 10px;
     }
     .common_get-started {
         width: 200px;
@@ -266,7 +265,7 @@
     }
     .header-marico-button {
         width: 70px;
-        height: 40px;
+        height: 30px;
         border-radius: 10px;
     }
     .common_get-started {
@@ -292,7 +291,7 @@
         width: 50px;
         height: 20px;
         border-radius: 10px;
-        font-size: 9px;
+        font-size: 7px;
         display: flex;
         justify-content: center;
         align-items: center;
